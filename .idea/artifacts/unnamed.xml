@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="unnamed">
+    <output-path>$PROJECT_DIR$/out</output-path>
+    <root id="root">
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="lib (2)" />
+      </element>
+    </root>
+  </artifact>
+</component>

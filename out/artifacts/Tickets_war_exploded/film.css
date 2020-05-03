@@ -1,0 +1,107 @@
+main{
+    padding-top: 80px;
+}
+main h3{
+    text-align: center;
+}
+.film-container{
+
+    display: block;
+    margin: 20px;
+
+}
+.film-div{
+    display: block;
+    margin: 20px;
+    padding: 5px;
+    height: 345px;
+}
+
+.info-div{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 80%;
+    float: right;
+    padding: 10px;
+    background:  skyblue;
+    border: 2px groove black;
+
+}
+.img-div{
+    height: 100%;
+    float: left;
+}
+.img-div img{
+    height: 100%;
+    width: 225px;
+    height: 335px;
+}
+.description-div{
+    padding: 5px;
+    margin: 20px;
+}
+#trailer-div {
+    height: 100%;
+    margin: 20px;
+    display: none;
+}
+
+#trailer-div iframe{
+    width: 100%;
+    height: 90%;
+
+
+}
+#show-trailer-div{
+    text-align: center;
+    border: 1px groove grey;
+    margin: 20px;
+}
+#show-trailer-div:hover{
+    color: blue;
+    cursor: pointer;
+
+}
+
+.session-container{
+    display: block;
+    margin: 20px;
+}
+.table{
+    margin: 20px;
+    width: 100%;
+}
+#filter{
+    position: relative;
+    left: 40px;
+    top: -35px;
+
+
+
+}
+.filter{
+    margin: 20px;
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+.navbar{
+
+    position: fixed;
+    width: 100%;
+    padding-left: 50px;
+    z-index: 1;
+}
+.navbar a{
+    font-size: 20px;
+}
+.navbar li:hover{
+    background: blue;
+}
+#homepage:hover{
+    background: blue;
+}
+
+

@@ -1,0 +1,162 @@
+main{
+    padding-top: 80px;
+    width: 100%;
+    height: auto;
+}
+
+main h2{
+    text-align: center;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.navbar{
+
+    position: fixed;
+    width: 100%;
+    padding-left: 50px;
+    z-index: 10;
+}
+.navbar a{
+    font-size: 20;
+}
+.navbar li:hover{
+    background: blue;
+}
+#homepage:hover{
+    background: blue;
+}
+.movie-container{
+    width: 100%;
+    padding: 20px 50px;
+
+}
+
+.movie-card {
+    margin: 15px;
+    width: 280px;
+    height: 360px;
+    float: left;
+}
+.card-hover{
+    width: 551px;
+    height: 361px;
+    display: none;
+
+}
+.card-hover a{
+    font-size: 20;
+
+    color: white;
+}
+.card-hover a:hover{
+
+    color: blue;
+
+}
+
+
+.info-card{
+    width: 270px;
+    height: 360px;
+    float: left;
+    text-align: center;
+}
+.info-card a{
+    position: relative;
+    float: right;
+    margin: 20px;
+}
+.img-card{
+    width: 280px;
+    height: 360px;
+    float: left;
+}
+.img-card img{
+    width: 280px;
+    height: 360px;
+}
+.img-card-hover img{
+    width: 280px;
+    height: 360px;
+    float: left;
+
+}
+.movie-card:hover #crdhvr{
+    position: relative;
+    display: flow-root;
+    background-color: rgb(0, 195, 255);
+    color: white;
+    z-index: 1;
+    opacity: 0.9;
+}
+.movie-card:hover .img-card{
+    display: none;
+}
+
+.movie-card-right {
+    margin: 15px;
+    width: 280px;
+    height: 360px;
+    float: left;
+}
+.card-hover-right{
+    width: 551px;
+    height: 361px;
+    position: relative;
+    right: 271px;
+    display: none;
+
+}
+.card-hover-right a{
+    font-size: 20;
+
+    color: white;
+}
+.card-hover-right a:hover{
+    color: blue;
+
+}
+
+
+.info-card-right{
+    width: 270px;
+    height: 360px;
+    float: right;
+    text-align: center;
+}
+.info-card-right a{
+    position: relative;
+    float: left;
+
+    margin: 20px;
+}
+.img-card-right{
+    width: 280px;
+    height: 360px;
+    float: right;
+}
+.img-card-right img{
+    width: 280px;
+    height: 360px;
+}
+.img-card-hover-right img{
+    width: 280px;
+    height: 360px;
+    float: right;
+
+}
+.movie-card-right:hover #crdhvr-right{
+    position: relative;
+    display: flow-root;
+    background-color: rgb(0, 195, 255);
+    color: white;
+    z-index: 1;
+    opacity: 0.9;
+}
+.movie-card-right:hover .img-card-right{
+    display: none;
+}
+
+
+

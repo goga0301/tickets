@@ -1,0 +1,109 @@
+main{
+    padding-top: 80px;
+}
+body{
+    width: 100%;
+    overflow: hidden;
+}
+body aside{
+    float: left;
+    width: 50%;
+    height: 90%;
+}
+
+.card-box {
+    border: 2px groove black;
+    margin: 2px;
+    width: 200px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    float: left;
+
+
+
+}
+#edit-form{
+    text-align: center;
+
+}
+#edit-form h4{
+    padding: 10px;
+}
+#right-aside h4{
+    padding: 13px;
+    align-items: center;
+    text-align: center;
+}
+.row{
+    padding: 5px;
+    justify-content: center !important;
+
+}
+
+#cards{
+    overflow-y: scroll;
+    height: 360px;
+    margin-bottom: 1rem;
+    padding: 25px;
+}
+#addcard{
+    text-align: center;
+}
+.center {
+    position: relative;
+    left: -25vw;
+    top: -60vh;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 1;
+    z-index: 10;
+    border: 2px groove black;
+    background-color: white;
+    text-align: center;
+}
+.editcenter{
+    position: absolute;
+    left: 25%;
+    top: 19%;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 1;
+    z-index: 1;
+    border: 2px groove black;
+    background-color: white;
+    text-align: center;
+}
+
+.hideform {
+    display: none;
+}
+.hideeditform{
+    display: none;
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+.navbar{
+
+    position: fixed;
+    width: 100%;
+    padding-left: 50px;
+    z-index: 1;
+}
+.navbar a{
+    font-size: 20px;
+}
+.navbar li:hover{
+    background: blue;
+}
+#homepage:hover{
+    background: blue;
+}
