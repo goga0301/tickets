@@ -6,7 +6,7 @@
 <html>
 
 <head>
-    <title>Login page</title>
+    <title>Login page goga</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="login.css?v=1.1">
