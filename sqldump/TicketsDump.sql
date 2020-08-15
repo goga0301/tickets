@@ -41,7 +41,7 @@ CREATE TABLE `cards` (
 
 LOCK TABLES `cards` WRITE;
 /*!40000 ALTER TABLE `cards` DISABLE KEYS */;
-INSERT INTO `cards` VALUES (3,'7878454578784545','goga gachechiladze','05/25','293','goga03'),(4,'3333333333333333','ako gachechiladze','02/22','432','ako1234'),(5,'2221999944447777','giorgi','bbeqauri','543','giorgi12'),(8,'3333333333333333','irma gagoshidze','12/23','123','null'),(9,'5555555555555555','swori ragaca','12/22','333','null'),(22,'2221111111111111','giorgi gachechiladze','12/22','123','goga03'),(26,'3333333333334444','ako gachechiladze','12/33','123','goga03'),(30,'7777666677776666','ako loladze','12/24','212','akolola123'),(31,'7878787878787','ako loladze','21/12','123','goga03'),(32,'3434343434343434','qwedcsdv dss','12/12','123','goga03'),(35,'4747474747474747','bamkis barati','12/23','123','goga03'),(36,'2828282828282855','nika mgebrishvili','123','123','goga03'),(37,'1010101010101010','test test1','10/25','123','test1010'),(40,'1212321234532134','goga gachechiladze','12/22','123','test8811');
+INSERT INTO `cards` VALUES (3,'7878454578784545','xxxxxx yyyyyyy','05/25','293','goga03'),(4,'3333333333333333','yyyyy xxxxx','02/22','432','ako1234');
 /*!40000 ALTER TABLE `cards` ENABLE KEYS */;
 UNLOCK TABLES;
 
